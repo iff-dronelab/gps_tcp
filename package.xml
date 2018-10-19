@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>gps_tcp</name>
+  <version>0.0.1</version>
+  <description>
+    Interface to non-ROS GPS receiver over TCP
+  </description>
+
+  <license>BSD</license>
+  <maintainer email="y.khedar@tu-bs.de">Yogesh Khedar</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+
+</package>
